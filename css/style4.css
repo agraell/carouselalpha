@@ -45,11 +45,13 @@
     animation: titleAnimation 36s linear infinite 0s;
 }
 .cb-slideshow li div h3 {
+	color:white;
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
     font-size: 120px;
     padding: 0;
     line-height: 200px;
-	color: rgba(169,3,41, 0.8);
+	margin-bottom:150px;
+	/* color: rgba(169,3,41, 0.8); */
 }
 .cb-slideshow li:nth-child(1) span { background-image: url(../images/1.jpg) }
 .cb-slideshow li:nth-child(2) span {

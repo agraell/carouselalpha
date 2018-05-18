@@ -1,10 +1,11 @@
 @font-face {
-    font-family: 'BebasNeueRegular';
-    src: url('fonts/BebasNeue-webfont.eot');
-    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BebasNeue-webfont.woff') format('woff'),
-         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
-         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    /* font-family: 'BebasNeueRegular'; */
+    /* src: url('fonts/BebasNeue-webfont.eot'); */
+    /* src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'), */
+         /* url('fonts/BebasNeue-webfont.woff') format('woff'), */
+         /* url('fonts/BebasNeue-webfont.ttf') format('truetype'), */
+         /* url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg'); */
+		 font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -67,8 +68,13 @@ a{
 	text-decoration: none;
 }
 .container{
-	position: relative;
-	text-align: center;
+	border-bottom: 15px solid #654e90;
+position: fixed;
+    text-align: center;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(90, 58, 97);
 }
 .clr{
 	clear: both;
@@ -101,42 +107,35 @@ a{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
-.main {
-	width: 100%; 
-	margin:200px auto 0 auto; 
-	padding: 20px 0 50px 0; 
-	height: auto;
-}
-
 .logo-container {
 	margin: 0 30% 0 30%;
 }
 
 .logo-container > img {
-	width:100%;
-	border: 1px solid white;
+	width:75%;
 	background-color: rgba(90, 58, 97, 0.7);
 }
 
 .social-media {
+	border-top: 15px solid #654e90;
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:100%;
+	
 	font-size:24px;
 	margin-top:25px;
 
 	color:white;
 	
-	background-color: rgb(65, 42, 70, 0.7);
-    padding: 10px;
-    border: 1px solid white;
+	background-color: rgb(65, 42, 70);
+    /* padding: 10px; */
+    /* border: 1px solid white; */
 }
 
-.social-media > div {
-	width:33%;
-}
 
-.social-media > a {
-	display: inline-block;
-    width: 45px;
-    height: 35px;
+.social-media > div > a {
+    padding: 10px; 
 }
 
 .fa-circle {
