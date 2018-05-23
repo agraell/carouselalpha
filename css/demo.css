@@ -12,7 +12,6 @@
 
 body{
 	font-family: 'Ubuntu', sans-serif;
-	/* min-height:800px; */
 	background: #000;
 	font-weight: 400;
 	font-size: 15px;
@@ -31,7 +30,6 @@ a{
 	border-bottom: 10px solid #654e90;
 	text-align: center;
 	z-index:100;
-	/* margin: 0 30% 0 30%; */
     background-color: rgba(90, 58, 97);
 }
 
@@ -42,19 +40,10 @@ a{
 
 .social-media {
 	border-top: 10px solid #654e90;
-	/* position:fixed; */
-	/* bottom:0; */
-	/* right:0; */
-	/* width:100%; */
-	
 	font-size:24px;
-	/* margin-top:25px; */
 	height:200px;
 	color:white;
-	
-	background-color: rgb(65, 42, 70);
-    /* padding: 10px; */
-    /* border: 1px solid white; */
+	background-color: rgb(90, 58, 97);
 }
 
 
@@ -85,17 +74,20 @@ a{
 .cl-gr {
 	color: rgba(90, 58, 97, 0.7) !important;
 }
-
-/* Media Queries */
-@media screen and (max-width:  767.98px) {
-
-	.container > header{
-		text-align: center;
-	}
-	p.codrops-demos {
-		position: relative;
-		top: auto;
-		left: auto;
+@media (min-width: 1200px) { 
+	.logo-container img {
+		width: 30%;
 	}
 }
 
+@media (max-width:  768px) {
+	.logo-container img {
+		width: 75%;
+	}
+}
+
+@media (max-width:  576px) {
+	.logo-container img {
+		width: 90%;
+	}
+}
