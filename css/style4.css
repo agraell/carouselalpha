@@ -1,17 +1,21 @@
 .cb-slideshow,
 .cb-slideshow:after {
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 100%;
-
-    top: 0px;
-    left: 0px;
+	height:1200px;
     z-index: 0;
+	overflow:hidden !important;
 }
 .cb-slideshow:after {
     content: '';
+	
     /* background: transparent url(../images/pattern.png) repeat top left; */
 }
+
+.cb-slideshow li {
+}
+
 .cb-slideshow li span {
     width: 100%;
     height: 100%;
@@ -358,4 +362,10 @@
 }
 @media screen and (max-width: 600px) { 
 	.cb-slideshow li div h3 { font-size: 25px }
+}
+@media screen and (max-width:  767.98px) {
+	.cb-slideshow,
+	.cb-slideshow:after { 
+		height: 800px;
+	}
 }
