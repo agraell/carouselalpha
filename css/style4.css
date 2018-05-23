@@ -369,7 +369,7 @@
 }
 
 @media (max-width:  576px) {
-	.cb-slideshow li div h3 { font-size: 50px }
+	.cb-slideshow li div h3 { font-size: 35px }
 	.cb-slideshow,
 	.cb-slideshow:after { 
 		height: 500px;
