@@ -27,23 +27,22 @@ a{
 	text-decoration: none;
 }
 .logo-container{
-	border-bottom: 10px solid #654e90;
+	border-bottom: 10px solid #2c2c2c;
 	text-align: center;
 	z-index:100;
-    background-color: rgba(90, 58, 97);
+    background-color: #202020;
 }
 
 .logo-container img {
 	width:30%;
-	background-color: rgba(90, 58, 97, 0.7);
 }
 
 .social-media {
-	border-top: 10px solid #654e90;
+	border-top: 10px solid #2c2c2c;
 	font-size:24px;
 	height:200px;
 	color:white;
-	background-color: rgb(90, 58, 97);
+	background-color: #202020;
 }
 
 
