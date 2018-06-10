@@ -22,7 +22,7 @@
 
 body{
 	font-family: 'Ubuntu', sans-serif;
-	background: #000;
+	background: #202020;
 	font-weight: 400;
 	font-size: 15px;
 	color: #aa3e03;
@@ -94,6 +94,38 @@ a{
 
 .cl-gr {
 	color: rgba(90, 58, 97, 0.7) !important;
+}
+
+.copyright {
+	display: block;
+	height:100px;
+	margin:50px auto 25px auto;
+	background-color: #202020;
+}
+
+.copyright a {
+	color:white;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+.copyright img {
+	display:block;
+	position:relative;
+	margin: 0 auto 10px auto;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.copyright img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .cb-slideshow,
